@@ -1,0 +1,28 @@
+html {
+  font-family: system-ui, sans-serif;
+  font-size: 1.25rem;
+}
+
+body {
+  margin: 0;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.containerMapImage {
+  position: relative; /* Establece la posición relativa para que los elementos internos se posicionen en relación con este contenedor */
+  width: 100%; /* Ajusta el ancho a tu preferencia */
+  height: 500px; /* Ajusta la altura a tu preferencia */
+}
+
+.background-image {
+  position: absolute; /* Establece la posición absoluta para que la imagen de fondo no afecte el flujo normal del contenido */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ajusta el ancho al 100% para cubrir todo el contenedor */
+  height: 100%; /* Ajusta la altura al 100% para cubrir todo el contenedor */
+  z-index: -1; /* Coloca la imagen detrás del contenido del mapa */
+}
